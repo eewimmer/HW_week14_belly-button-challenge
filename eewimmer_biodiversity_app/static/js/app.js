@@ -148,7 +148,7 @@ function init() {
       let name = names[i];
 
       // Create Test Subject ID Number dropdown option
-      dropdown.append("option").text(name).property("value", names);
+      dropdown.append("option").text(name).property("value", name);
     }
 
 
